@@ -20,6 +20,17 @@ composer require umutphp/laravel-belongs-to-user
 ## Usage
 
 ```php
+...
+
+use Illuminate\Database\Eloquent\Model;
+use UmutPHP\BelongsToUser\BelongsToUser;
+
+class UserData extends Model
+{
+    use BelongsToUser;
+
+    ...
+}
 
 ```
 
@@ -35,7 +46,7 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Umut Işık](https://github.com/umutphp)
 - [All Contributors](../../contributors)
 
 ## License
