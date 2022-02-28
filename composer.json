@@ -2,9 +2,11 @@
     "name": "umutphp/laravel-belongs-to-user",
     "description": "The smallest Laravel package for having User belongs to relation ",
     "keywords": [
-        ":vendor_name",
+        "umutphp",
         "laravel",
-        "package_slug"
+        "belongs-to-user",
+        "model",
+        "eloquent"
     ],
     "homepage": "https://github.com/umutphp/laravel-belongs-to-user",
     "license": "MIT",
