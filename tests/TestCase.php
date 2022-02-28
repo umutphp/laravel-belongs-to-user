@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace UmutPHP\BelongsToUser\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 
