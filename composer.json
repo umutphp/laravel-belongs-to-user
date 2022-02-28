@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "umutphp/laravel-belongs-to-user",
+    "description": "The smallest Laravel package for having User belongs to relation ",
     "keywords": [
         ":vendor_name",
         "laravel",
         "package_slug"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/umutphp/laravel-belongs-to-user",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Umut Işık",
+            "email": "umutphp@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "UmutPHP\\BelongsToUser\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "UmutPHP\\BelongsToUser\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,11 +49,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
-            ],
-            "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
-            }
+                "UmutPHP\\BelongsToUser\\BelongsToUserServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
