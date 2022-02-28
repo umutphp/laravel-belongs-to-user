@@ -7,7 +7,7 @@
 
 ---
 
-If you are creating your own trait to have "belongsTo" User relationship in every model needed, you can also use this package not to define the trait on your own. 
+If you are creating your own trait to have "belongsTo" User relationship in every model needed, you can also use this package not to define the trait on your own.
 
 ## Installation
 
