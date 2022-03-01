@@ -9,6 +9,6 @@ class BelongsToUserServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-        $package->name('belongs-to-user');
+        $package->name('belongs-to-user')->hasConfigFile('belongs-to-user');
     }
 }
