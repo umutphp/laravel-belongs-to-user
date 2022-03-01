@@ -14,9 +14,12 @@ class BelongsToUserServiceProvider extends PackageServiceProvider
      */
     public function boot()
     {
-        $this->publishes([
-            __DIR__ . '/../config/belong-to-user.php' => config_path('belong-to-user.php'),
-        ]);
+        $this->publishes(
+            [
+                __DIR__ . '/../config/belong-to-user.php' => config_path('belong-to-user.php'),
+            ],
+            'config'
+        );
     }
 
     public function configurePackage(Package $package): void
