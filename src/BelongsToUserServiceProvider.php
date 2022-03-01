@@ -16,7 +16,7 @@ class BelongsToUserServiceProvider extends PackageServiceProvider
     {
         $this->publishes(
             [
-                __DIR__ . '/../config/belong-to-user.php' => config_path('belong-to-user.php'),
+                __DIR__ . '/../config/belongs-to-user.php' => config_path('belongs-to-user.php'),
             ],
             'config'
         );
