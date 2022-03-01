@@ -16,7 +16,7 @@ You can install the package via composer:
 ```bash
 composer require umutphp/laravel-belongs-to-user
 
-php artisan vendor:publish --provider="App\Models\BelongsToUserServiceProvider" --tag="laravel-belongs-to-user-config"
+php artisan vendor:publish --provider="UmutPHP\BelongsToUser\BelongsToUserServiceProvider"
 
 ```
 
