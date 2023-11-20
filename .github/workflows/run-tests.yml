@@ -1,4 +1,4 @@
-name: run-tests-on-new-php
+name: run-tests
 
 on:
   push:
