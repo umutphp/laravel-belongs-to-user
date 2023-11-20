@@ -1,8 +1,6 @@
 # Laravel Belongs To User Package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/umutphp/laravel-belongs-to-user.svg?style=flat-square)](https://packagist.org/packages/umutphp/laravel-belongs-to-user)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/umutphp/laravel-belongs-to-user/run-tests?label=tests)](https://github.com/umutphp/laravel-belongs-to-user/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/umutphp/laravel-belongs-to-user/Check%20&%20fix%20styling?label=code%20style)](https://github.com/umutphp/laravel-belongs-to-user/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/umutphp/laravel-belongs-to-user.svg?style=flat-square)](https://packagist.org/packages/umutphp/laravel-belongs-to-user)
 
 ---
